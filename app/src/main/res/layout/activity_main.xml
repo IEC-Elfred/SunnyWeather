@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
-    xmlns:andorid="http://schemas.android.com/apk/res/android"
-    andorid:layout_width="match_parent"
-    andorid:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <fragment
-        andorid:layout_width="match_parent"
-        andorid:layout_height="match_parent"
-        andorid:id="@+id/placeFragment"
-        andorid:name="com.example.sunnyweather.ui.place.PlaceFragment"/>
+        android:id="@+id/placeFragment"
+        android:name="com.example.sunnyweather.ui.place.PlaceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </FrameLayout>
